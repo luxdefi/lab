@@ -1,5 +1,5 @@
 {
-  "name": "se-2",
+  "name": "@luxlabs/lab",
   "version": "0.0.1",
   "private": true,
   "workspaces": {
@@ -9,17 +9,17 @@
     ]
   },
   "scripts": {
-    "account": "yarn workspace @se-2/hardhat account",
-    "chain": "yarn workspace @se-2/hardhat chain",
-    "deploy": "yarn workspace @se-2/hardhat deploy",
-    "compile": "yarn workspace @se-2/hardhat compile",
-    "generate": "yarn workspace @se-2/hardhat generate",
-    "hardhat:lint": "yarn workspace @se-2/hardhat lint",
-    "hardhat:lint-staged": "yarn workspace @se-2/hardhat lint-staged",
-    "hardhat:test": "yarn workspace @se-2/hardhat test",
-    "start": "yarn workspace @se-2/nextjs dev",
-    "next:lint": "yarn workspace @se-2/nextjs lint",
-    "next:format": "yarn workspace @se-2/nextjs format",
+    "account": "yarn workspace @luxlabs/hardhat account",
+    "chain": "yarn workspace @luxlabs/hardhat chain",
+    "deploy": "yarn workspace @luxlabs/hardhat deploy",
+    "compile": "yarn workspace @luxlabs/hardhat compile",
+    "generate": "yarn workspace @luxlabs/hardhat generate",
+    "hardhat:lint": "yarn workspace @luxlabs/hardhat lint",
+    "hardhat:lint-staged": "yarn workspace @luxlabs/hardhat lint-staged",
+    "hardhat:test": "yarn workspace @luxlabs/hardhat test",
+    "start": "yarn workspace @luxlabs/nextjs dev",
+    "next:lint": "yarn workspace @luxlabs/nextjs lint",
+    "next:format": "yarn workspace @luxlabs/nextjs format",
     "postinstall": "husky install",
     "precommit": "lint-staged"
   },
